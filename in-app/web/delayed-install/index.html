@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Iterate Example - Delayed Initialization</title>
+    <script>
+        window.iterateSettings = {
+            // Demo API key, ok to use in public
+            apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjoiNWRmZTM2OGEwOWI2ZWYwMDAxYjNlNjE4IiwiaWF0IjoxNTc2OTQxMTk0fQ.QBWr2goMwOngVhi6wY9sdFAKEvBGmn-JRDKstVMFh6M',
+        };
+
+        (function (i, t, e, r, a) {
+            if (t.getElementById(r)) { return }
+            i.IterateObjectName = a; var z = function () { z.c(arguments) }; z.q = [];
+            z.c = function (args) { z.q.push(args) }; i[a] = z;
+            function l() { var js, fjs = t.getElementsByTagName(e)[0]; js = t.createElement(e); js.id = r; js.async = 1; js.src = "https://platform.iteratehq.com/loader.js"; fjs.parentNode.insertBefore(js, fjs) };
+            if (t.readyState === "complete") { l(); } else if (i.attachEvent) { i.attachEvent('onload', l); } else { i.addEventListener('load', l, false); }
+        }(window, document, 'script', 'iterate-js', 'Iterate'));
+    </script>
+</head>
+
+<body>
+    <h1>Iterate Single Page App, Delayed Install Example</h1>
+
+    <ol>
+        <li>Iterate script installed with <code>installOnLoad: false</code> <span id="installed"
+                style="display:none">(confirming Iterate variable is available...confirmed)</span></li>
+        <li>Click <button onclick="window.Iterate('identify', {user_type: 'example'})">this button</button> to call
+            Identify with the user data</li>
+        <li>Click <button onclick="window.Iterate('install')">this button</button> to call
+            Install which will then check if any surveys should be shown</li>
+    </ol>
+    <script>
+        // Confirm the Iterate script is installed
+        if (window.Iterate != null) {
+            document.getElementById('installed').style.display = 'inline';
+        }
+    </script>
+</body>
+
+</html>
