@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Iterate Example - External Id</title>
+    <script>
+        window.iterateSettings = {
+            // Demo API key, ok to use in public
+            apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjoiNTZmNWIxNDBjNGY5ZWYwMDAxMDAwMDAxIiwicm9sZSI6IndlYiIsImlhdCI6MTUwMTc5NTcxNn0.jqso1tv7kGf0UrLglmQtFOuwuVetONvcGGx4qhvlsYM',
+        };
+
+        (function (i, t, e, r, a) {
+            if (t.getElementById(r)) { return }
+            i.IterateObjectName = a; var z = function () { z.c(arguments) }; z.q = [];
+            z.c = function (args) { z.q.push(args) }; i[a] = z;
+            function l() { var js, fjs = t.getElementsByTagName(e)[0]; js = t.createElement(e); js.id = r; js.async = 1; js.src = "https://platform.iteratehq.com/loader.js"; fjs.parentNode.insertBefore(js, fjs) };
+            if (t.readyState === "complete") { l(); } else if (i.attachEvent) { i.attachEvent('onload', l); } else { i.addEventListener('load', l, false); }
+        }(window, document, 'script', 'iterate-js', 'Iterate'));
+
+        Iterate('identify', { external_id: 123 });
+    </script>
+</head>
+
+<body>
+    <h1>Iterate, External Id</h1>
+</body>
+
+</html>
