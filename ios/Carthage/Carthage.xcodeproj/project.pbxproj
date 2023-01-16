@@ -11,18 +11,18 @@
 		27D7333C2975E0220021C0F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D7333B2975E0220021C0F5 /* ContentView.swift */; };
 		27D7333E2975E0240021C0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D7333D2975E0240021C0F5 /* Assets.xcassets */; };
 		27D733412975E0240021C0F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D733402975E0240021C0F5 /* Preview Assets.xcassets */; };
-		27D733492975E88A0021C0F5 /* IterateSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D733482975E88A0021C0F5 /* IterateSDK.xcframework */; };
-		27D7334A2975E88A0021C0F5 /* IterateSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27D733482975E88A0021C0F5 /* IterateSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27D733862975F34B0021C0F5 /* Iterate.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D733852975F34A0021C0F5 /* Iterate.xcframework */; };
+		27D733872975F34B0021C0F5 /* Iterate.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27D733852975F34A0021C0F5 /* Iterate.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		27D7334B2975E88A0021C0F5 /* Embed Frameworks */ = {
+		27D733882975F34B0021C0F5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27D7334A2975E88A0021C0F5 /* IterateSDK.xcframework in Embed Frameworks */,
+				27D733872975F34B0021C0F5 /* Iterate.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,6 +36,7 @@
 		27D7333D2975E0240021C0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D733402975E0240021C0F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27D733482975E88A0021C0F5 /* IterateSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IterateSDK.xcframework; path = Carthage/Build/IterateSDK.xcframework; sourceTree = "<group>"; };
+		27D733852975F34A0021C0F5 /* Iterate.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Iterate.xcframework; path = Carthage/Build/Iterate.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D733492975E88A0021C0F5 /* IterateSDK.xcframework in Frameworks */,
+				27D733862975F34B0021C0F5 /* Iterate.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +90,7 @@
 		27D733472975E8890021C0F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27D733852975F34A0021C0F5 /* Iterate.xcframework */,
 				27D733482975E88A0021C0F5 /* IterateSDK.xcframework */,
 			);
 			name = Frameworks;
@@ -104,7 +106,7 @@
 				27D733322975E0220021C0F5 /* Sources */,
 				27D733332975E0220021C0F5 /* Frameworks */,
 				27D733342975E0220021C0F5 /* Resources */,
-				27D7334B2975E88A0021C0F5 /* Embed Frameworks */,
+				27D733882975F34B0021C0F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

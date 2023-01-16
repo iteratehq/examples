@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import IterateSDK
+import Iterate
 
 struct ContentView: View {
     var body: some View {

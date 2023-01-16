@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import IterateSDK
+import Iterate
 
 @main
 struct CarthageApp: App {

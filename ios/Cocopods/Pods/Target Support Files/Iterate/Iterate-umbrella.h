@@ -12,6 +12,6 @@
 
 #import "Iterate.h"
 
-FOUNDATION_EXPORT double IterateSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char IterateSDKVersionString[];
+FOUNDATION_EXPORT double IterateVersionNumber;
+FOUNDATION_EXPORT const unsigned char IterateVersionString[];
 

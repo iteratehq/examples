@@ -1,4 +1,4 @@
-framework module IterateSDK {
+framework module Iterate {
   umbrella header "Iterate-umbrella.h"
 
   export *

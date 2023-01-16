@@ -11,7 +11,7 @@
 		27D7335B2975E92A0021C0F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D7335A2975E92A0021C0F5 /* ContentView.swift */; };
 		27D7335D2975E92C0021C0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D7335C2975E92C0021C0F5 /* Assets.xcassets */; };
 		27D733602975E92C0021C0F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D7335F2975E92C0021C0F5 /* Preview Assets.xcassets */; };
-		27D733762975F04D0021C0F5 /* Iterate in Frameworks */ = {isa = PBXBuildFile; productRef = 27D733752975F04D0021C0F5 /* Iterate */; };
+		27D733812975F2C20021C0F5 /* Iterate in Frameworks */ = {isa = PBXBuildFile; productRef = 27D733802975F2C20021C0F5 /* Iterate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		27D7335A2975E92A0021C0F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27D7335C2975E92C0021C0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D7335F2975E92C0021C0F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		27D733742975F0420021C0F5 /* iterate-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "iterate-ios"; path = "../../../iterate-ios"; sourceTree = "<group>"; };
+		27D7337F2975F2AB0021C0F5 /* iterate-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "iterate-ios"; path = "../../../iterate-ios"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D733762975F04D0021C0F5 /* Iterate in Frameworks */,
+				27D733812975F2C20021C0F5 /* Iterate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		27D733732975F0420021C0F5 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				27D733742975F0420021C0F5 /* iterate-ios */,
+				27D7337F2975F2AB0021C0F5 /* iterate-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			);
 			name = SwiftPackageManager;
 			packageProductDependencies = (
-				27D733752975F04D0021C0F5 /* Iterate */,
+				27D733802975F2C20021C0F5 /* Iterate */,
 			);
 			productName = SwiftPackageManager;
 			productReference = 27D733552975E92A0021C0F5 /* SwiftPackageManager.app */;
@@ -362,7 +362,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		27D733752975F04D0021C0F5 /* Iterate */ = {
+		27D733802975F2C20021C0F5 /* Iterate */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Iterate;
 		};
