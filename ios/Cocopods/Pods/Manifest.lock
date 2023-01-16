@@ -1,0 +1,16 @@
+PODS:
+  - Iterate (1.0.6)
+
+DEPENDENCIES:
+  - Iterate (from `/Users/mike/Iterate/iterate-ios`)
+
+EXTERNAL SOURCES:
+  Iterate:
+    :path: "/Users/mike/Iterate/iterate-ios"
+
+SPEC CHECKSUMS:
+  Iterate: bb827bc842c9a1351c119b4f4d6bf48caf78871c
+
+PODFILE CHECKSUM: 73c02b2cd4f6856af1874116866fd2849b34541f
+
+COCOAPODS: 1.11.3
